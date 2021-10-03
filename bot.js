@@ -156,105 +156,105 @@ async function whatsAsena () {
                 var ov_time = new Date().toLocaleString('PT', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('75')) { // Russia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('RU', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('91')) { // Indian
                 var ov_time = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('62')) { // Indonesia
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('ID', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('49')) { // Germany
                 var ov_time = new Date().toLocaleString('DE', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('61')) { // Australia 
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('AU', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('55')) { // Brazil
                 var ov_time = new Date().toLocaleString('BR', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('33')) { // France
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('FR', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('34')) { // Spain
                 var ov_time = new Date().toLocaleString('ES', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('44')) { // UK
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('GB', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('39')) { // Italy 
                 var ov_time = new Date().toLocaleString('IT', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('7')) { // Kazakhistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('KZ', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('998')) { // Uzbekistan 
                 var ov_time = new Date().toLocaleString('UZ', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time + '\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else if (conn.user.jid.startsWith('993')) { // Turkmenistan
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('TM', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
             else {
                 const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
                 var utch = new Date().toLocaleDateString(config.LANG, get_localized_date)
                 var ov_time = new Date().toLocaleString('EN', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
-                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 ✔'
+                const biography = '📅 ' + utch + '\n⌚ ' + ov_time +'\n\n 𝐓𝐎𝐗𝐈𝐂 ✔'
                 await conn.setStatus(biography)
             }
         }
@@ -341,7 +341,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
         if (os.userInfo().homedir !== clh.pay) return;
         await new Promise(r => setTimeout(r, 200));
         let afwhasena = config.WORKTYPE == 'public' ? ' Public' : ' Private'
-        console.log(chalk.bgGreen('⚡ Raganork' + afwhasena));
+        console.log(chalk.bgGreen('⚡ TOXIC' + afwhasena));
         await new Promise(r => setTimeout(r, 500));
         let EVA_ACTİON = config.LANG == 'TR' || config.LANG == 'AZ' ? '*WhatsAsena Chatbot Olarak Çalışıyor!* 🐺\n\n_Bu modun amacı botu tam fonksiyonel bir yapay zeka sohbet aracına çevirmektir._\n_Normal moda dönmek için_ *.fulleva off* _komutunu kullanabilirsiniz._\n\n*WhatsAsena Kullandığın İçin Teşekkürler 💌*\n    *- Eva*' : '*𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙒𝙤𝙧𝙠𝙞𝙣𝙜 𝙖𝙨 𝙖 𝘾𝙝𝙖𝙩𝙗𝙤𝙩! 💬*\n\n_The purpose of this mod is to turn the bot into a fully functional AI chatbot._\n_You can use the_ *.chatbot off* _command to return to normal mode._\n\n*Killadism never ends!*\n    *- Raganork*'
         if (conn.user.jid == one || conn.user.jid == two || conn.user.jid == three || conn.user.jid == four) {
@@ -387,7 +387,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n 𝙍𝘼𝙂𝘼𝙉𝙊𝙍𝙆 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 ✅\n', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n 𝐓𝐎𝐗𝐈𝐂 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 ✅\n', MessageType.text);
                 }               
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -442,7 +442,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                 if (config.FULLEVA == 'true') {
                     await conn.sendMessage(conn.user.jid, EVA_ACTİON, MessageType.text)
                 } else {
-                    await conn.sendMessage(conn.user.jid, '\n*𝙍𝙖𝙜𝙖𝙣𝙤𝙧𝙠 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙖𝙨 Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Killadism never ends!*', MessageType.text);
+                    await conn.sendMessage(conn.user.jid, '\n*𝐓𝐎𝐗𝐈𝐂 𝙧𝙪𝙣𝙣𝙞𝙣𝙜 𝙖𝙨 Private!😎*\n\n_Please do not try plugins here. This is your LOG number._\n_You can try commands to any chat :)_\n\n*Your bot working as private. To change it, use* _.setvar WORK_TYPE:public_\n\n*Killadism never ends!*', MessageType.text);
                 }
                 await git.fetch();
                 var commits = await git.log([config.BRANCH + '..origin/' + config.BRANCH]);
@@ -680,7 +680,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please Wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ ʀᴀɢᷨᴀͦɴͭᴏʀᴋ ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ ᴛᴏᷨxͦɪͭᴄ ~______~*' +
                                     '\n\n*🥲 ' + error + '*\n\n' + 'Error onnum kandu pedikkanda. seen illa nenbaa 💖'
                                     , MessageType.text);
                             }
